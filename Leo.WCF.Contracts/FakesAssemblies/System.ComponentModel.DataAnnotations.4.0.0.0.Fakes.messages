@@ -1,0 +1,48 @@
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 FXAssembly 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 ThisAssembly 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 AssemblyRef 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.AppContextDefaultValues 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.LocalAppContext 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.AppSettings 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptor 生成存根: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.AssociationAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.BindableTypeAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.ConcurrencyCheckAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.CreditCardAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.CustomValidationAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.DataType 生成存根: 类型是一个值类型。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.DisplayAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.EditableAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.EmailAddressAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.EnumDataTypeAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.FileExtensionsAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.FilterUIHintAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.KeyAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.LocalAppContextSwitches 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.LocalizableString 生成存根: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.MetadataPropertyDescriptorWrapper 生成存根: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.MetadataTypeAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.PhoneAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.TimestampAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.UrlAttribute 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.Validator 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.ValidationAttributeStore 生成存根: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.ValidationContext 生成存根: 类型已密封。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.Resources.DataAnnotationsResources 生成存根: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption 生成存根: 类型是一个值类型。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 FXAssembly 生成填充码: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 ThisAssembly 生成填充码: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 AssemblyRef 生成填充码: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.AppContextDefaultValues 生成填充码: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.LocalAppContext 生成填充码: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.AppSettings 生成填充码: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptor 生成填充码: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.DataType 生成填充码: 类型是一个枚举。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.IValidatableObject 生成填充码: 类型是一个接口。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.LocalAppContextSwitches 生成填充码: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.LocalizableString 生成填充码: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.MetadataPropertyDescriptorWrapper 生成填充码: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.UIHintAttribute+UIHintImplementation 生成填充码: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.ValidationAttributeStore 生成填充码: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.Resources.DataAnnotationsResources 生成填充码: 类型对 exported or assembly(System.ComponentModel.DataAnnotations.4.0.0.0.Fakes) 不可见。
+H:\SVN\Leo\Leo.WCF.Contracts\Fakes\System.ComponentModel.DataAnnotations.fakes : warning : 无法为 System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption 生成填充码: 类型是一个枚举。
