@@ -4,9 +4,9 @@
 
 Sq::Sq()
 {
-	//sq.elem = (ElemType *)malloc(LIST_INIT_SIZE * sizeof(ElemType));
+	sqList.elem = (ElemType *)malloc(LIST_INIT_SIZE * sizeof(ElemType));
 
-	//if (!sq.elem) exit(0);
+	if (!sqList.elem) exit(0);
 
 	this->sqList.length = 0;
 	this->sqList.listsize = LIST_INIT_SIZE;
@@ -27,11 +27,10 @@ bool Sq::listInsert(int i, ElemType e)
 
 	if (sqList.length >= sqList.listsize)
 	{
-		/*ElemType *newbase = (ElemType *)realloc(sq.elem, (sq.listsize + LISTINCREMENT) * sizeof(ElemType));
+		ElemType *newbase = (ElemType *)realloc(sqList.elem, (sqList.listsize + LISTINCREMENT) * sizeof(ElemType));
 		if (!newbase) exit(0);
-		sq.elem = newbase;
-		sq.listsize += LISTINCREMENT;*/
-		printf("hahaha");
+		sqList.elem = newbase;
+		sqList.listsize += LISTINCREMENT;
 	}
 
 	for (int j = sqList.length - 1; j >= i; j++)

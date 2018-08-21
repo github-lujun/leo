@@ -7,8 +7,7 @@ typedef int ElemType;
 
 typedef struct
 {
-	//ElemType *elem;
-	ElemType elem[LIST_INIT_SIZE];
+	ElemType *elem;
 	int length;
 	int listsize;
 }SqList;
