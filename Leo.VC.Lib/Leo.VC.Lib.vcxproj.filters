@@ -21,10 +21,10 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\Leo.VC\sqlist.h">
+    <ClInclude Include="lnode.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="lnode.h">
+    <ClInclude Include="sqlist.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,10 +35,10 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\Leo.VC\sqlist.cpp">
+    <ClCompile Include="lnode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="lnode.cpp">
+    <ClCompile Include="sqlist.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
