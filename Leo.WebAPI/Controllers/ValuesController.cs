@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
 
@@ -14,6 +15,15 @@ namespace Leo.WebAPI.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
+            Task.Run(()=> 
+            {
+                int i = 0;
+                while (true)
+                {
+                    
+                    Console.WriteLine(i++);
+                }
+            });
             return new string[] { "value1", "value2" };
         }
 
