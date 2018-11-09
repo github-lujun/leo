@@ -1,5 +1,8 @@
-﻿using System;
+﻿using Leo.WebMVC.Models;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -11,6 +14,50 @@ namespace Leo.WebMVC.Controllers
     {
         public ActionResult Index()
         {
+            using (var context = new LeoDbContext())
+            {
+                var state = context.Entry(new Persons() { }).State;
+                var person = context.Set<Persons>().FirstOrDefault();
+                state = context.Entry(person).State;
+                person = context.Set<Persons>().Find("2");
+                if (person == null)
+                {
+                    person = new Persons()
+                    {
+                        Id = "2",
+                        Name = "leo",
+                        age = 24
+                    };
+                    context.Entry(person).State = EntityState.Added;
+                    context.SaveChanges();
+                    person = new Persons()
+                    {
+                        Id = "3",
+                        Name = "lu",
+                        age = 22
+                    };
+                    context.Entry(person).State = EntityState.Added;
+                    context.SaveChanges();
+                }
+                else
+                {
+                    person = new Persons
+                    {
+                        Id = "2",
+                        Name = "jack",
+                        age = 26,
+                    };
+                    state = context.Entry(person).State;
+                    context.Entry(person).State = EntityState.Modified;
+                    context.SaveChanges();
+                    person = context.Set<Persons>().Find("3");
+                    if (person != null)
+                    {
+                        context.Entry(person).State = EntityState.Deleted;
+                        context.SaveChanges();
+                    }
+                }
+            }
             return View();
         }
 
