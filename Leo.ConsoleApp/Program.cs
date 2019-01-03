@@ -33,27 +33,63 @@ namespace Leo.ConsoleApp
 
         static void Main(string[] args)
         {
-            ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("localhost");
+            //ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("localhost");
             /*IDatabase db = redis.GetDatabase();
             string key = "name";
             string value = "junlu";
             db.StringSet(key, value);
             Console.WriteLine(db.StringGet(key));*/
 
-            ISubscriber subscriber = redis.GetSubscriber();
-            subscriber.Subscribe("message", (channel, message) =>
-            {
-                Console.WriteLine(message);
-            });
-            subscriber.Publish("message", "hello");
+            //ISubscriber subscriber = redis.GetSubscriber();
+            //subscriber.Subscribe("message", (channel, message) =>
+            //{
+            //    Console.WriteLine(message);
+            //});
+            //subscriber.Publish("message", "hello");
             /*G g;
             g = G1;
             g();*/
-            /*Task.Run(() =>
+
+            Console.WriteLine(new ServiceReference1.WebService1SoapClient().Say());
+
+            /*for (int i = 0; i < 10; i++)
+            {
+                Task.Run(() =>
+                {
+                    IConnection connection=null;
+                    IModel channel=null;
+                    try
+                    {
+                        var factory = new ConnectionFactory() { HostName = "localhost" };
+                        connection = factory.CreateConnection();
+                        channel = connection.CreateModel();
+                        channel.QueueDeclare(queue: "hello", durable: false, exclusive: false, autoDelete: false, arguments: null);
+                        var consumer = new EventingBasicConsumer(channel);
+                        Thread.Sleep(5000);
+                        consumer.Received += (model, ea) =>
+                        {
+                            var body = ea.Body;
+                            var message = Encoding.UTF8.GetString(body);
+                            Console.WriteLine(message);
+                            //throw new Exception();
+                        };
+                        channel.BasicConsume(queue: "hello", autoAck: true, consumer: consumer);
+                    }
+                    catch (Exception)
+                    {
+                        if (!channel.IsClosed)
+                            channel.Close();
+
+                        if (connection.IsOpen)
+                            connection.Close();
+                    }
+                });
+            }
+            Task.Run(() =>
             {
                 //while (true)
                 //{ 
-                for (int i = 0; i < 10; i++)
+                for (int i = 0; i < 100; i++)
                 {
                     var factory = new ConnectionFactory() { HostName = "localhost" };
                         //using ()
@@ -66,7 +102,7 @@ namespace Leo.ConsoleApp
                     string message = "Hello World!"+i;
                     var body = Encoding.UTF8.GetBytes(message);
                     channel.BasicPublish(exchange: "", routingKey: "hello", basicProperties: null, body: body);
-                    Thread.Sleep(5000);
+                    //Thread.Sleep(5000);
                 }
                 //}
                 //}

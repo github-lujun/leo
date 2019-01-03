@@ -1,11 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2037
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leo.WebAPI", "Leo.WebAPI\Leo.WebAPI.csproj", "{676DCB8B-AE0C-403C-87AB-BB39C9F91C83}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leo.ConsoleApp", "Leo.ConsoleApp\Leo.ConsoleApp.csproj", "{0D516C47-D0B2-4AF5-B83E-EC6A18AA4D27}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0579770E-EBB8-46E5-884B-F9067468FADE} = {0579770E-EBB8-46E5-884B-F9067468FADE}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leo.WebMVC", "Leo.WebMVC\Leo.WebMVC.csproj", "{15B62DF2-217F-4CA5-921C-63B8E7565648}"
 EndProject
