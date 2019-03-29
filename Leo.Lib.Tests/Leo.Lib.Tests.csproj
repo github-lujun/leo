@@ -56,6 +56,13 @@
     <Compile Include="GuidUtilsTest.NewCombTest.g.cs">
       <DependentUpon>GuidUtilsTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="MailHelperTest.cs" />
+    <Compile Include="MailHelperTest.SendMailTest.g.cs">
+      <DependentUpon>MailHelperTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailHelperTest.SendMailTest01.g.cs">
+      <DependentUpon>MailHelperTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\PexAssemblyInfo.cs" />
   </ItemGroup>
